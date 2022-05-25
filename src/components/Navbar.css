@@ -1,0 +1,68 @@
+#add-jobs {
+    display: flex !important;
+    position: absolute;
+    right: 2rem;
+    top: 0.5rem;
+    margin-right: 0rem;
+    border-radius: 2rem;
+    background-color: rgb(94, 77, 240);
+    color: white;
+    outline: none;
+    border: 2px solid blue;
+}
+
+#add-jobs:hover {
+    background-color: rgb(38, 15, 240) !important;
+    color: white;
+    font-weight: bold !important;
+    transition: all .1s ease-in-out;
+}
+
+.nav-link .active {
+    margin: 5px;
+    color: aliceblue !important;
+    background-color: rgb(94, 77, 240) !important;
+}
+
+.nav-link .active:hover {
+    color: white !important;
+    font-weight: bold !important;
+    background-color: rgb(38, 15, 240) !important;
+}
+
+.nav-link {
+    margin: 5px !important;
+    color: aliceblue !important;
+    background-color: rgb(94, 77, 240) !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    font-weight: bold !important;
+    background-color: rgb(38, 15, 240) !important;
+}
+
+.close-circle {
+    color: blue;
+    cursor: pointer;
+    font-size: X-large;
+    position: absolute;
+    right: 0.9rem;
+    top: 0.5rem;
+}
+
+.close-circle:hover {
+    transition: all .2s;
+    color: rgb(81, 36, 241);
+}
+
+#job-heading {
+    display: inline-block;
+    margin-top: 0.4rem;
+}
+
+.form-container {
+    box-shadow: 1px 1px 5px 1px seagreen;
+    /* overflow-y: scroll !important; */
+    height: auto;
+}
